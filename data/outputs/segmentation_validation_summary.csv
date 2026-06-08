@@ -1,0 +1,40 @@
+section,position,metric_name,metric_value,snapshot_date,lifecycle_segment,segment_size,segment_share,avg_recency_days,avg_active_days_30,avg_observations_30,avg_level_current,avg_level_gain_30,guild_member_share,fast_progressor_share,reactivated_share,segment_size_change_vs_3m_ago,segment_share_change_vs_3m_ago
+summary,1,total_snapshots,38,,,,,,,,,,,,,,
+summary,2,min_snapshot_date,2005-12-31,,,,,,,,,,,,,,
+summary,3,max_snapshot_date,2009-01-10,,,,,,,,,,,,,,
+summary,4,total_rows_in_mart_player_lifecycle_features,1816697,,,,,,,,,,,,,,
+summary,5,total_rows_in_mart_player_segments,1816697,,,,,,,,,,,,,,
+summary,6,unique_avatars_overall,91056,,,,,,,,,,,,,,
+summary,7,latest_snapshot_date,2009-01-10,,,,,,,,,,,,,,
+summary,8,latest_snapshot_total_avatars,91056,,,,,,,,,,,,,,
+summary,9,null_lifecycle_segment_rows,0,,,,,,,,,,,,,,
+summary,10,duplicate_avatar_id_snapshot_date_rows,0,,,,,,,,,,,,,,
+summary,11,recency_days_lt_zero_rows,0,,,,,,,,,,,,,,
+summary,12,active_days_30_gt_30_rows,0,,,,,,,,,,,,,,
+summary,13,segment_share_not_close_to_one_snapshots,0,,,,,,,,,,,,,,
+latest_snapshot_segment_distribution,1,latest_snapshot_segment,83459,2009-01-10,Lapsed Players,83459,0.9165678263925496,502.984711055728,0.0,0.0,10.779232916761524,0.0,0.000263602487448927,0.0,0.0,,
+latest_snapshot_segment_distribution,2,latest_snapshot_segment,2368,2009-01-10,Low Activity / Other,2368,0.02600597434545774,16.21537162162162,2.323902027027027,6.903716216216216,27.152027027027028,0.4066722972972973,0.0,0.04983108108108108,0.0,,
+latest_snapshot_segment_distribution,3,latest_snapshot_segment,1911,2009-01-10,Core Engaged,1911,0.02098708487084871,2.1077969649398223,20.671899529042385,350.0852956567242,70.89952904238619,5.924123495552067,0.0,0.6028257456828885,0.0,,
+latest_snapshot_segment_distribution,4,latest_snapshot_segment,1814,2009-01-10,Casual Returners,1814,0.019921806360920752,9.55457552370452,3.439911797133407,11.703417861080485,42.10308710033076,0.7309812568908489,0.0,0.06560088202866593,0.0,,
+latest_snapshot_segment_distribution,5,latest_snapshot_segment,535,2009-01-10,At-Risk Players,535,0.005875505183623265,18.66355140186916,2.730841121495327,18.097196261682242,59.222429906542054,0.38317757009345793,0.0,0.03364485981308411,0.0,,
+latest_snapshot_segment_distribution,6,latest_snapshot_segment,333,2009-01-10,Reactivated Players,333,0.0036570901423299946,3.0,1.3993993993993994,6.165165165165165,37.126126126126124,0.15615615615615616,0.0,0.036036036036036036,1.0,,
+latest_snapshot_segment_distribution,7,latest_snapshot_segment,331,2009-01-10,Fast Progressors,331,0.0036351256369706554,8.764350453172206,6.003021148036254,38.42296072507553,29.045317220543808,6.483383685800605,0.0,1.0,0.0,,
+latest_snapshot_segment_distribution,8,latest_snapshot_segment,305,2009-01-10,New Explorers,305,0.0033495870672992445,3.0295081967213116,1.6459016393442623,12.452459016393442,13.914754098360655,2.760655737704918,0.0,0.3180327868852459,0.0,,
+top_10_fastest_growing_segments_latest_3m,1,segment_growth,10996,2009-01-10,Lapsed Players,83459,0.9165678263925496,,,,,,,,,10996,0.06472337620093371
+top_10_fastest_growing_segments_latest_3m,2,segment_growth,172,2009-01-10,Fast Progressors,331,0.0036351256369706554,,,,,,,,,172,0.0017659887315090138
+top_10_fastest_growing_segments_latest_3m,3,segment_growth,69,2009-01-10,At-Risk Players,535,0.005875505183623265,,,,,,,,,69,0.00039740582547782496
+top_10_fastest_growing_segments_latest_3m,4,segment_growth,0,2009-01-10,Social/Guild Engaged,0,0.0,,,,,,,,,0,0.0
+top_10_fastest_growing_segments_latest_3m,5,segment_growth,-112,2009-01-10,New Explorers,305,0.0033495870672992445,,,,,,,,,-112,-0.0015524889677794003
+top_10_fastest_growing_segments_latest_3m,6,segment_growth,-276,2009-01-10,Reactivated Players,333,0.0036570901423299946,,,,,,,,,-276,-0.003502056872928746
+top_10_fastest_growing_segments_latest_3m,7,segment_growth,-363,2009-01-10,Casual Returners,1814,0.019921806360920752,,,,,,,,,-363,-0.005670086992475433
+top_10_fastest_growing_segments_latest_3m,8,segment_growth,-948,2009-01-10,Core Engaged,1911,0.02098708487084871,,,,,,,,,-948,-0.012622112693395526
+top_10_fastest_growing_segments_latest_3m,9,segment_growth,-3548,2009-01-10,Low Activity / Other,2368,0.02600597434545774,,,,,,,,,-3548,-0.04354002523134145
+top_10_shrinking_segments_latest_3m,1,segment_growth,-3548,2009-01-10,Low Activity / Other,2368,0.02600597434545774,,,,,,,,,-3548,-0.04354002523134145
+top_10_shrinking_segments_latest_3m,2,segment_growth,-948,2009-01-10,Core Engaged,1911,0.02098708487084871,,,,,,,,,-948,-0.012622112693395526
+top_10_shrinking_segments_latest_3m,3,segment_growth,-363,2009-01-10,Casual Returners,1814,0.019921806360920752,,,,,,,,,-363,-0.005670086992475433
+top_10_shrinking_segments_latest_3m,4,segment_growth,-276,2009-01-10,Reactivated Players,333,0.0036570901423299946,,,,,,,,,-276,-0.003502056872928746
+top_10_shrinking_segments_latest_3m,5,segment_growth,-112,2009-01-10,New Explorers,305,0.0033495870672992445,,,,,,,,,-112,-0.0015524889677794003
+top_10_shrinking_segments_latest_3m,6,segment_growth,0,2009-01-10,Social/Guild Engaged,0,0.0,,,,,,,,,0,0.0
+top_10_shrinking_segments_latest_3m,7,segment_growth,69,2009-01-10,At-Risk Players,535,0.005875505183623265,,,,,,,,,69,0.00039740582547782496
+top_10_shrinking_segments_latest_3m,8,segment_growth,172,2009-01-10,Fast Progressors,331,0.0036351256369706554,,,,,,,,,172,0.0017659887315090138
+top_10_shrinking_segments_latest_3m,9,segment_growth,10996,2009-01-10,Lapsed Players,83459,0.9165678263925496,,,,,,,,,10996,0.06472337620093371

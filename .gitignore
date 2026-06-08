@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS / notebooks
+.DS_Store
+.ipynb_checkpoints/
+
+# Local databases and runtime files
+*.duckdb
+*.duckdb.wal
+data/processed/*.duckdb
+*.db
+
+# Large data artifacts
+data/raw/
+data/processed/*.parquet
+data/processed/*_parts/
+data/processed/**/*_parts/
+data/processed/stg_wowah_events_clean_parts/
+data/processed/stg_wowah_event_anomalies_parts/
+data/processed/stg_wowah_events_parts/
+notebooks/data/
+
+# Archives
+*.rar
+*.zip
+
+# Keep lightweight, portfolio-safe files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/outputs/
+!data/outputs/*.csv
+!data/sample/
+!data/sample/*.csv

@@ -1,0 +1,40 @@
+section,metric_name,metric_value
+files,mart_liveops_recommendations,data/processed/mart_liveops_recommendations.parquet
+files,dashboard_kpi_summary,data/processed/dashboard_kpi_summary.parquet
+files,dashboard_retention_summary,data/processed/dashboard_retention_summary.parquet
+files,dashboard_segment_summary,data/processed/dashboard_segment_summary.parquet
+files,dashboard_forecast_summary,data/processed/dashboard_forecast_summary.parquet
+files,liveops_recommendation_summary,data/outputs/liveops_recommendation_summary.csv
+validation,recommendation_rows,4
+validation,duplicate_recommendation_id_rows,0
+validation,duplicate_priority_rank_rows,0
+validation,null_recommended_action_rows,0
+validation,dashboard_kpi_summary_rows,1
+validation,dashboard_retention_summary_rows,1051
+validation,dashboard_segment_summary_rows,8
+validation,dashboard_forecast_summary_rows,30
+validation,addressable_segment_share_sum,1.0
+validation,addressable_segment_share_not_close_to_1,0
+validation,warnings,none
+latest_kpi_summary,latest_activity_date,2009-01-10 00:00:00
+latest_kpi_summary,latest_dau,881
+latest_kpi_summary,latest_wau,3684
+latest_kpi_summary,latest_mau,7499
+latest_kpi_summary,latest_stickiness,0.11748233097746366
+latest_kpi_summary,avg_dau_30d,1855.4333333333334
+latest_kpi_summary,avg_mau_30d,8456.133333333333
+latest_kpi_summary,latest_forecast_30d_avg_dau,1855.433333333334
+latest_kpi_summary,active_alert_count,4
+latest_kpi_summary,high_alert_count,2.0
+latest_segment_summary,latest_segment_snapshot,2009-01-10 00:00:00
+latest_segment_summary,largest_segment,Lapsed Players
+latest_segment_summary,fastest_growing_segment,Lapsed Players
+latest_segment_summary,fastest_shrinking_segment,Low Activity / Other
+forecast_summary,champion_model,moving_avg_30d
+forecast_summary,champion_mae,267.2869830996046
+forecast_summary,champion_smape,0.17360673004573904
+forecast_summary,forecast_date_range,2009-01-11 00:00:00 to 2009-02-09 00:00:00
+recommendations,priority_1_d7_retention_drop,Onboarding / early progression review
+recommendations,priority_2_core_engaged_decline,Endgame content and event engagement review
+recommendations,priority_3_lapsed_growth,Win-back campaign
+recommendations,priority_4_mau_drop_7d_vs_28d,Acquisition quality and content cadence review

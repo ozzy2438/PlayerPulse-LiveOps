@@ -1,0 +1,5 @@
+alert_date,alert_type,severity,metric_name,current_value,baseline_value,pct_change,evidence_window,recommended_follow_up
+2009-01-10 00:00:00,core_engaged_decline,high,core_engaged_segment_size,1911.0,2859.0,-0.3315844700944386,latest segment snapshot vs 3 snapshots ago,Review endgame/event engagement
+2009-01-10 00:00:00,lapsed_growth,medium,lapsed_segment_size,83459.0,72463.0,0.15174640851193022,latest segment snapshot vs 3 snapshots ago,Win-back campaign
+2009-01-10 00:00:00,mau_drop_7d_vs_28d,medium,mau,7667.0,8873.57142857143,-0.13597359735973605,latest 7 days vs previous 28 days,Investigate recent content/event cadence and acquisition quality
+2009-01-03 00:00:00,d7_retention_drop,high,d7_retention,0.05825087456271864,0.12884710031302685,-0.5479069810558299,latest 3 eligible cohorts vs previous 12 eligible cohorts,Review onboarding and early progression experience
